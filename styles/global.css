@@ -50,16 +50,21 @@ h1, h2, h3 {
   margin-inline: auto;
 }
 
-/* utility-first */
-
-.grid {
-  display: grid;
+img {
+  max-width: 100%;
 }
 
-.grid-col {
-  grid-auto-flow: column;
+main {
+  margin-top: 40px;
 }
 
-.teste {
-  border: 1px solid red;
+.content-tag {
+  display: inline-block;
+  background: var(--brand-color-dark);
+  padding: 8px 4px;
+  border-radius: 4px;
+  font: 500 10px/1.2 var(--font-family);
+  text-transform: uppercase;
+  color: var(--text-color-primary);
+  box-shadow: 0px 4px 16px rgba(2, 6, 23,);
 }
